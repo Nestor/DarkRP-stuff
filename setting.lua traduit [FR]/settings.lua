@@ -340,12 +340,8 @@ GM.Config.DisallowDrop = {
 
 -- The list of weapons people spawn with.
 GM.Config.DefaultWeapons = {
-    "keys",
     "weapon_physcannon",
-    "gmod_camera",
-    "gmod_tool",
     "pocket",
-    "weapon_physgun",
 }
 
 -- Override categories.
@@ -406,7 +402,7 @@ GM.Config.DefaultLaws = {
     "Pour l'amour du ciel le FearRP..osef dans la mesure ou c'est du raquette avec une arme légére.",
 }
 
--- Si vous ne voulez pas voir des joueurs exploité ceci , please prendre le temps d'upgrade cette liste 
+-- Si vous ne voulez pas voir des joueurs exploit ce genre de chose , please prendre le temps d'upgrade cette liste 
 GM.Config.PocketBlacklist = {
     ["fadmin_jail"] = true,
     ["meteor"] = true,
